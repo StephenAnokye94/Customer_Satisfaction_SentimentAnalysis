@@ -22,14 +22,16 @@ recorded as rating is a numerical data. Finally, the text data include the patie
 sideEffectsReview and patient benefits from the drugs they are on as benefitsReview.
 
 ### Data Prepration
-Both the training and testing datasets came in .TSV files which stands for tab-separated values, it is a file commonly used by spreadsheet applications to exchange data between databases as stated by website fileinfo.com. I 
-converted it to a .CSV file with python and exported it so I can have the CSV file saved.
+Both the training and testing datasets came in .TSV files which stands for tab-separated values,
+it is a file commonly used by spreadsheet applications to exchange data between databases as
+stated by website fileinfo.com. I converted it to a .CSV file with python and exported it so I can have the CSV file saved.
 After converting the file to .CSV I noticed a column was added that was not present in the dataset 
 description. I also did not see the need for this new column called “Unnamed: 0” so I dropped it 
 before proceeding. I went ahead to do some data cleaning such as checking for NAs, I only identified 
 NAs in the training data set and removed them as I saw no point in generating values for people. I 
 felt that will not be a true representation, and since it was a little part of the data set, I did not mind 
 removing it.
+
 Another thing I did for data preparation was on removing stopwords for wordcloud. This ensured I 
 had a display of high occurring words devoid of unnecessary words. I also went on to put the text in 
 columns I used for the models I created from the various algorithms into lowercase and did some 
