@@ -37,3 +37,9 @@ had a display of high-occurring words devoid of unnecessary words. I also went o
 columns I used for the models I created from the various algorithms into lowercase and did some 
 stemming as well. I think the stemming helped optimize the training of the models as it reduced the 
 different forms of the same words that were present.
+
+### EDA 
+
+![Sntmt Anls 1](https://github.com/user-attachments/assets/fe5bbc10-7703-462e-8fd0-fd4d43bc0545)
+
+
