@@ -44,9 +44,10 @@ This included a bar graph of the effectiveness column. My intention here was to 
 the company's drugs were.
 ![Sntmt Anls 1](https://github.com/user-attachments/assets/fe5bbc10-7703-462e-8fd0-fd4d43bc0545)
 
-This bar graph showed at a simple glance, that the majority of patients rated the drugs as highly effective.
+This bar graph above showed at a simple glance, that the majority of patients rated the drugs as highly effective.
+
 
 ![Sntmt Anls 2](https://github.com/user-attachments/assets/cae488e0-fece-4819-91c3-76c0d78a37ba)
 I then decided to use a clustered bar chart to check the relation between effectiveness and the side effects recorded.
 This is to enable me to get a clear comparative view across the different levels of effectiveness.
-In the graph, I noticed a trend where drugs with higher effectiveness (e.g., "Highly Effective") are associated with a higher prevalence of "No Side Effects" and "Mild Side Effects."
+In the graph, I noticed a trend where drugs with higher effectiveness "Highly Effective" are associated with a higher prevalence of "No Side Effects" and "Mild Side Effects."
