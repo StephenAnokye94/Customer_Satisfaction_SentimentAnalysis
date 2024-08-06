@@ -36,10 +36,11 @@ Another thing I did for data preparation was on removing stopwords for wordcloud
 had a display of high-occurring words devoid of unnecessary words. I also went on to put the text in 
 columns I used for the models I created from the various algorithms into lowercase and did some 
 stemming as well. I think the stemming helped optimize the training of the models as it reduced the 
-different forms of the same words that were present.
+different forms of the same words.
 
-### EDA 
-
+### Data Exploration and Descriptive Analytics
+I started data exploration by performing standard visualizations with the imported and cleaned data. 
+This included a bar graph of the effectiveness column. My intention here was to identify how effective
+the company's drugs were.
 ![Sntmt Anls 1](https://github.com/user-attachments/assets/fe5bbc10-7703-462e-8fd0-fd4d43bc0545)
-
-
+This bar graph showed at a simple glance, that the majority of patients rated the drugs as highly effective.
